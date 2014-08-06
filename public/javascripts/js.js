@@ -86,7 +86,7 @@ function doubledutch() {
                 //window.location = "http://doubledutch.me/jobs";
             }
 
-        }, 100);
+        }, 400);
     })();
 
     function render() {
