@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 can you doubledutch?
+  pre(id="theater")
+  p
+    button(id="go") GO!
+    pre function getDoubleDutcherFunction() {
+    textarea(id="code")
+      | // "step", "jump", or "wait"
+      | return function () {
+      |     return "step";
+      | };
+    pre }
+  script.
+    $(function() { doubledutch(); });

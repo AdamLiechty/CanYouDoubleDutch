@@ -1,0 +1,14 @@
+body {
+  padding: 20px;
+  font: 14px "Courier New", Courier, monospace;
+}
+
+a {
+  color: #00B7FF;
+}
+textarea {
+    margin-left: 20px;
+    height: 200px;
+    width: 600px;
+    background-color: #e8f7ff;
+}
