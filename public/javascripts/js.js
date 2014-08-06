@@ -83,7 +83,7 @@ function doubledutch() {
                 clearInterval(iv);
                 var email = prompt("Nice! We're always looking for talented and creative engineers. Give us your email if you'd like to send us your solution and get more info. No spam lists, we promise.")
                 $.ajax("#", {type: "POST", contentType: "application/json", data: JSON.stringify({ "email": email, "solution": $("#code").val() })});
-                //window.location = "http://doubledutch.me/jobs";
+                window.location = "http://doubledutch.me/about.html";
             }
 
         }, 400);
