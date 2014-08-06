@@ -1,7 +1,7 @@
 CanYouDoubleDutch
 =================
 
-[Can You?](http://canyoudoubledutch.herokuapp.com/)
+[can you?](http://canyoudoubledutch.herokuapp.com/)
 
 We like to hack and have fun, and these are often the same thing.
 
