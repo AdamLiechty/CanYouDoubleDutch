@@ -7,8 +7,17 @@ a {
   color: #00B7FF;
 }
 textarea {
-    margin-left: 20px;
-    height: 200px;
-    width: 600px;
-    background-color: #e8f7ff;
+  margin-left: 20px;
+  height: 200px;
+  width: 600px;
+  background-color: #e8f7ff;
+}
+#attrib {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: gray;
+}
+#attrib a {
+  color: gray;
 }
