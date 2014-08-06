@@ -85,7 +85,7 @@ function doubledutch() {
                 $.ajax("#", {
                     type: "POST",
                     contentType: "application/json",
-                    data: JSON.stringify({ "email": email, "solution": $("#code").val() }
+                    data: JSON.stringify({ "email": email, "solution": $("#code").val() })
                 }).always(function() {
                     window.location = "http://doubledutch.me/about.html"
                 });
