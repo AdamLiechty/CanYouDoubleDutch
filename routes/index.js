@@ -5,7 +5,7 @@ var mg = new Mailgun(key);
 
 /* GET home page. */
 exports.index = function(req, res){
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'can you doubledutch?' });
 };
 
 exports.indexPost = function (req, res) {
